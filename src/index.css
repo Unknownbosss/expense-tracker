@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+    
+    background: #10141E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.25rem;
+}
+
+@media (min-width: 768px) {
+    #root {
+        padding-left: 9rem /* 144px */;
+        padding-right: 9rem /* 144px */;
+    }
+}
