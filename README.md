@@ -26,7 +26,7 @@ To get started with the Expense Tracker project, follow these steps:
    ```
 3. Run the development server:
    ```
-   npm run server
+   npm run dev
    ```
 
 ## Features
